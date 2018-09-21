@@ -1,9 +1,9 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-clean-blog"
+  spec.name          = "ACE50Years"
   spec.version       = "4.0.1"
-  spec.authors       = ["Start Bootstrap"]
+  spec.authors       = ["Ace Cash Express"]
   spec.email         = ["feedback@startbootstrap.com"]
 
   spec.summary       = %q{A simple blog theme based on Bootstrap 4 by Start Bootstrap.}
