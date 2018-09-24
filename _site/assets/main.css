@@ -326,8 +326,42 @@ h5.descrption {
   letter-spacing: .5px;
   text-align: center; }
 
+label {
+  font-size: 13px;
+  color: #4a4a4a; }
+
+.form-control {
+  padding: .475rem .75rem;
+  font-size: .8rem;
+  color: #9b9b9b; }
+
+.custom-select {
+  font-size: .8rem;
+  color: #9b9b9b; }
+
+form {
+  padding: 10px 40px; }
+
 .text-secondary {
   color: #4a4a4a; }
+
+.modal-lg {
+  max-width: 650px; }
+
+.modal-content {
+  background-color: #f9f9f9; }
+
+.thank-you-text {
+  font-size: 32px;
+  font-family: Gotham-Light;
+  margin: 20px 0 10px 0; }
+
+.modal-content p {
+  color: #9b9b9b;
+  font-size: 16px;
+  padding: 0 50px;
+  text-align: center;
+  margin: 10px 0; }
 
 .btn {
   font-size: 14px;
@@ -393,12 +427,6 @@ header.masthead .page-heading {
 
 .col-6.nav-facebook {
   margin: 23px 0; }
-
-.row.footer-bg-svg {
-  margin-right: 0px;
-  margin-left: 0px;
-  width: 100%;
-  }
 
 footer {
   background-color: #0A9A5D;
