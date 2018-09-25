@@ -432,6 +432,12 @@ p.card-text {
 .col-6.nav-facebook {
   margin: 23px 0; }
 
+.row.footer-bg-svg {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  }
+
 footer {
   background-color: #0A9A5D;
   width: 100%; }
