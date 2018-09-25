@@ -103,8 +103,8 @@ Make sure you have the `email` setting in your `_config.yml` file set to a worki
 
 When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
 
-1. [Download](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
-2. Update the following configuration settings in your `_config.yml` file:
+
+1. Update the following configuration settings in your `_config.yml` file:
    - `baserul`
    - `url`
    - `title`
@@ -114,11 +114,8 @@ When using the core files, the demo images, posts, and pages are all included wi
    - `twitter_username` (Optional)
    - `facebook_username` (Optional)
    - `github_username` (Optional)
-3. Build your site: `bundle exec jekyll serve`
+2. Build your site: `bundle exec jekyll serve`
 
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
 
 ## About
 
@@ -127,14 +124,9 @@ Start Bootstrap is an open source library of free Bootstrap templates and themes
 * https://startbootstrap.com
 * https://twitter.com/SBootstrap
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Copyright and License
 
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE) license.
+
+

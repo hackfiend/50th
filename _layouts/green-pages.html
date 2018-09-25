@@ -1,0 +1,16 @@
+---
+layout: template
+---
+
+<!-- Page Header -->
+{% if page.background %}
+  <header class="masthead" style="background-color:#0A9A5D;">
+  {% else %}
+    <header class="masthead">
+    {% endif %}
+    <div class="container">
+
+        {{ content }}
+      </div>
+  </header>
+
