@@ -51,8 +51,59 @@ h5.descrption {
     text-align: center;
 }
 
+label {
+    font-size: 13px;
+    color: #4a4a4a;
+}
+
+.form-control {
+    padding: .475rem .75rem;
+    font-size: .8rem;
+    color: #9b9b9b;
+}
+
+.custom-select {
+    font-size: .8rem;
+    color: #9b9b9b;
+}
+
+form {
+    padding: 10px 40px;
+}
+
 .text-secondary{
     color:#4a4a4a;
+}
+
+.modal-lg {
+    max-width: 650px;
+}
+
+.modal-content {
+    background-color: #f9f9f9;
+}
+
+.thank-you-text {
+    font-size: 32px;
+    font-family: Gotham-Light;
+    margin: 20px 0 10px 0;
+}
+
+.modal-content p {
+    color: #9b9b9b;
+    font-size: 16px;
+    padding: 0 50px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.modal-header {
+    border:none;
+}
+
+.modal-footer {
+    border: none;
+    padding: 0 0 2.5rem 0;
 }
 
 .btn {
@@ -65,17 +116,7 @@ h5.descrption {
 }
 
 
-.btn-primary {
-  background-color: $primary;
-  border-color: $primary;
-  &:hover,
-  &:focus,
-  &:active {
-    color: $white;
-    background-color: darken($primary, 7.5) !important;
-    border-color: darken($primary, 7.5) !important;
-  }
-}
+
 
 .btn-lg {
     font-size: 26px;
@@ -119,6 +160,10 @@ header.masthead .page-heading {
     background-color: #f8e71c;
     border-color: #f8e71c;
     color: #4a4a4a;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 5px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -141,14 +186,25 @@ header.masthead .page-heading {
     max-width: 857px;
 }
 
-.birthday-header.text-center {
+.birthday-header {
     color: #000000;
     font-size: 28px;
     padding: 20px;
     border-top: dotted 3px #c19e58;
     border-bottom: dotted 3px #c19258;
     text-transform: uppercase;
-    margin: 35px 70px;
+    margin: 35px 0px;
+    letter-spacing: normal;
+}
+
+.sign-header {
+    color: #000000;
+    font-size: 28px;
+    padding: 20px 0;
+    border-top: dotted 3px #c19e58;
+    border-bottom: dotted 3px #c19258;
+    text-transform: uppercase;
+    margin: 35px 40px;
     letter-spacing: normal;
 }
 
@@ -164,6 +220,11 @@ p.card-text {
     font-size: 13px;
     color: #9b9b9b;
     padding: 2px;
+    line-height:normal;
+}
+
+.card-body {
+    padding: .6rem;
 }
 
 .card {
@@ -171,6 +232,9 @@ p.card-text {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
+.col-sm-4.card-container {
+    padding: 10px 10px;
+}
 
 .col-6.nav-logo {
     margin: 15px 0;
@@ -179,6 +243,8 @@ p.card-text {
 .col-6.nav-facebook {
     margin: 23px 0;
 }
+
+
 
 footer{
   background-color: #0A9A5D;
