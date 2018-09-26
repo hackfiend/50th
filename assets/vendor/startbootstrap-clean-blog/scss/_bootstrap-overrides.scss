@@ -75,6 +75,18 @@ label {
     color: #9b9b9b;
 }
 
+.masthead.masthead-bg-home {
+    position: relative;
+    z-index: -999;
+    height: 1000px;
+    margin-bottom: -160px; 
+}
+
+.row.footer-bg-svg {
+    margin-right:0px;
+    margin-left:0px;
+}
+
 form {
     padding: 10px 40px;
 }
