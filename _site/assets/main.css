@@ -326,11 +326,17 @@ h5.descrption {
   letter-spacing: .5px;
   text-align: center; }
 
+svg.z-index {
+  transform: rotate(180deg); }
+
 p.text-center {
   color: #ffffff;
   font-family: Gotham-light;
   font-size: 16px;
   margin: 0; }
+
+.video {
+  padding: 0 2rem; }
 
 label {
   font-size: 13px;
@@ -344,6 +350,10 @@ label {
 .custom-select {
   font-size: .8rem;
   color: #9b9b9b; }
+
+.row.footer-bg-svg {
+  margin-right: 0px;
+  margin-left: 0px; }
 
 form {
   padding: 10px 40px; }
@@ -759,6 +769,28 @@ header.masthead .page-heading {
     max-width: 857px; }
 
   a.btn.btn-primary.btn-md.text-center.mt-4 {
-    font-size: 14px;
-    padding: 5px;
+    font-size: 16px;
+    padding: 10px;
     letter-spacing: normal; } }
+@media (max-width: 575.98px) {
+  p.copyright-txt {
+    margin: 12px 25px;
+    letter-spacing: .1px; }
+
+  h2.thank-you {
+    font-size: 23px !important; }
+
+  h1.celebrate {
+    font-size: 35px !important;
+    padding: 0 20px; }
+
+  .btn-lg {
+    font-size: 22px; }
+
+  img.img-fluid.footer-icn.ace-logo {
+    width: 66px;
+    margin: 13px 0 0 0; }
+
+  img.img-fluid.footer-icn.facebook-icn {
+    margin: 17px 0 0 0;
+    width: 22px; } }
