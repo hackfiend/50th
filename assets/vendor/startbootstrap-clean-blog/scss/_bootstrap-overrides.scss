@@ -132,6 +132,76 @@ form {
 .modal-backdrop.show {
     opacity: 0.8;
 }
+
+.nav-bg {
+    background: #0d603d;
+}
+
+img.img-fluid.nav-logo {
+    width: 66px;
+    margin: 7px 0 5px 15px;
+}
+
+.navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+   
+}
+
+.navbar-toggler {
+    line-height: 1.1rem;
+
+}
+
+
+
+img.img-fluid.d-flex.align-items-center {
+    width: 56px;
+    float: left;
+}
+
+.navbar {
+    padding: 0;
+    }
+
+.navbar-collapse {
+box-shadow: 4px 4px 6px rgba(0,0,0,.175);
+}
+
+
+.navbar-nav .nav-link {
+    padding-left: 20px;
+    float: left;
+}
+
+a.nav-link:hover {
+    color: #f8e71d;
+}
+
+li.nav-item.nav-section:hover {
+    background: rgba(25, 168, 109, 0.7);
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 1rem 1rem;
+    p {
+    margin:0;
+    }
+}
+
+
+
+li.nav-item.nav-section {
+    height: 96px;
+    padding: 20px;
+    border-top: solid 1px #0e7248;
+    border-bottom: solid 1px #0e7248;
+    background: #0e8453;
+}
+
+
 .btn {
   font-size: 14px;
   font-weight: 800;
@@ -674,8 +744,10 @@ img.img-fluid.footer-icn.facebook-icn {
     width: 22px;
 }
 
-
-
+body {
+    
+   margin-top:50px; 
+}
 
 
 }
