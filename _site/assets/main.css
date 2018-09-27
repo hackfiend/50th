@@ -424,11 +424,20 @@ a:not([href]):not([tabindex]) {
 a.footer-links {
   text-decoration: none; }
 
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #f8e71c;
+  border-color: #f8e71c;
+  color: initial;
+  cursor: pointer; }
+
 .btn-primary:not(:disabled):not(.disabled):active {
   color: rgba(12, 12, 12, 0.8); }
 
 form#new_kudo {
   padding: 10px !important; }
+
+#kudos_submit {
+  text-align: center; }
 
 div#kudos_rating {
   width: 100% !important;
@@ -436,6 +445,13 @@ div#kudos_rating {
 
 div#video_content {
   width: 100% !important; }
+
+span.btn-file-label {
+  display: none; }
+
+input#kudo_uploaded_photo {
+  float: left;
+  width: 100%; }
 
 .kudos-collect-form .input label {
   text-align: left; }
@@ -514,7 +530,10 @@ li.nav-item.nav-section {
 header.masthead {
   background: repeat top center;
   background-color: #ffffff;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
 
 h3.pg-title {
   font-size: 50px;
