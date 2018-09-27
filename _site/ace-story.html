@@ -88,10 +88,10 @@
       </li>
 
       <li class="nav-item nav-section">
-          <a href="/ACE50Years/">
+          <a data-toggle="modal" data-dismiss="modal" data-target="#boast-modal">
             <img src="img/icn-ace-story.svg" class="img-fluid d-flex align-items-center" alt="Tell Us Your ACE Story">
           </a>  
-        <a class="nav-link" href="/ACE50Years/""><p>Tell Us your Story</p></a>
+        <a class="nav-link" data-toggle="modal" data-dismiss="modal" data-target="#boast-modal" style="color:#ffffff;"><p>Tell Us your Story</p></a>
       </li>
       
       <li class="nav-item nav-section">
@@ -152,7 +152,7 @@
         
         <div class="col-lg-12 col-md-12 mx-auto">
           <div class="page-heading">
-                  <a class="btn btn-primary btn-md text-center mt-4" href="/ACE50Years/">Tell Us Your Story</a>
+                  <a class="btn btn-primary btn-md text-center mt-4" data-toggle="modal" data-target="#boast-modal">Tell Us Your Story</a>
           </div>
 
           
@@ -301,6 +301,27 @@
 </div>
 
 
+<!-- Modal Boast-->
+<div class="modal fade" id="boast-modal" tabindex="-1" role="dialog" aria-labelledby="boast-modalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-lg-12 col-md-12 text-center">
+            <script src='https://secure.boast.io/site/kudos/TDV425/js_embed?jquery=auto'></script>
+        </div> 
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
 
     <!-- Footer -->
 <div class="row footer-bg-svg">
@@ -320,7 +341,7 @@
       
       <div class="col footer-block">
           <a href="/ACE50Years/">
-            <img src="img/icn-sign-birthday-home.svg" class="img-fluid footer-icn active hvr-bob" alt="Sign Our Birthday Card">
+            <img src="img/icn-sign-birthday.svg" class="img-fluid footer-icn active hvr-bob" alt="Sign Our Birthday Card">
           </a>  
               <a href="/ACE50Years/" class="footer-links"alt="">
                 <p class="text-secondary">Sign Our<br/>Birthday Card</p>
@@ -337,10 +358,10 @@
       </div>
 
       <div class="col footer-block">
-        <a href="/ACE50Years/">
+        <a data-toggle="modal" data-dismiss="modal" data-target="#boast-modal">
           <img src="img/icn-ace-story.svg" class="img-fluid footer-icn hvr-bob" alt="Tell Us Your ACE Story">
         </a>  
-            <a href="/ACE50Years/" class="footer-links"alt="">
+            <a data-toggle="modal" data-dismiss="modal" data-target="#boast-modal" class="footer-links"alt="">
                 <p class="text-secondary">Tell Us Your<br/>ACE Story</p>
             </a>
       </div>

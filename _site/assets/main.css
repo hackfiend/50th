@@ -344,8 +344,7 @@ label {
 
 .form-control {
   padding: .475rem .75rem;
-  font-size: .8rem;
-  color: #e2e2e2; }
+  font-size: .8rem; }
 
 .custom-select {
   font-size: .8rem;
@@ -388,6 +387,58 @@ form {
 
 .modal-backdrop.show {
   opacity: 0.8; }
+
+.camera_tag .cameratag_screen.cameratag_completed .cameratag_checkmark {
+  font-size: 1em !important; }
+
+span.btn.btn-primary.btn-file {
+  background: #e4e4e4 !important;
+  border: none;
+  width: 100%;
+  font-size: 13px;
+  text-align: center; }
+
+.input.kudo_video_field {
+  max-width: 100% !important; }
+
+span.btn.btn-primary.btn-file:hover {
+  background: #bdbdbd !important; }
+
+.kudos-collect-form .input input, .kudos-collect-form .input textarea {
+  display: block;
+  max-width: 100% !important;
+  border: solid 1px #ced4da; }
+
+.kudos-collect-form .input {
+  max-width: 100% !important; }
+
+textarea#kudo_description {
+  width: 100% !important; }
+
+div#boast-modal {
+  padding: 0 !important; }
+
+a:not([href]):not([tabindex]) {
+  cursor: pointer; }
+
+a.footer-links {
+  text-decoration: none; }
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: rgba(12, 12, 12, 0.8); }
+
+form#new_kudo {
+  padding: 10px !important; }
+
+div#kudos_rating {
+  width: 100% !important;
+  text-align: left; }
+
+div#video_content {
+  width: 100% !important; }
+
+.kudos-collect-form .input label {
+  text-align: left; }
 
 .nav-bg {
   background: #0d603d; }
