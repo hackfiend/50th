@@ -18,27 +18,27 @@
 
         </div>
 
-    <form method="post">
+    <form method="post" action="/success.html">
       <div class="row">
         <div class="col-sm-6">
           <label for="inputFullname">First and Last Name</label>
-            <input type="text" class="form-control" id="inputFullname" name="inputFullname" placeholder="First and Last Name ">
+            <input type="text" class="form-control" name="name" id="inputFullname" placeholder="First and Last Name ">
         </div>
         <div class="col-sm-6">
           <label for="inputEmail4">Email</label>
-            <input type="email" name="Email" class="form-control" id="inputEmail4" placeholder="Your email address">
+            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Your email address">
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-6">
           <label for="inputCity">City</label>
-            <input type="text" name="inputCity" class="form-control" id="inputCity" placeholder="City">
+            <input type="text" name="city" class="form-control" id="inputCity" placeholder="City">
         </div>
         <div class="col-sm-6">
         <div class="form-group">
         <label for="inputEmail4">State</label>  
-        <select name="state-select" class="custom-select" required>
+        <select class="custom-select" required>
           <option value="state-select">Select State</option>
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
@@ -96,18 +96,35 @@
         </div>
       </div>
 
-      <input type="hidden" name="_to" value="michaelthomasdiaz@gmail.com">
-      <input type="text" name="_gotcha" style="display: none;">
+      <div class="row mb-3">
+        <div class="col-sm-12">
+          <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">Yes, please send me email updates and offers from ACE Cash Express.</label>
+          </div>
+        </div>
+        
+      </div>
 
+      <div class="row mb-3" style="max-width: 300px;" mx-auto>
+      <div class="g-recaptcha" data-sitekey="6LdrXEYUAAAAAKN5tiJCWGV6IsDrkniTa1Pcm8dT"></div>
+      </div>
+
+
+
+      <input type="hidden" name="_subject" value="Birthday Signature Received!">
+      <input type="hidden" name="_to" value="maxsuraz@gmail.com">
 
     </form>
 
+    <div class="form-group text-center">
+    <button type="submit" class="btn btn-primary btn-md mx-auto pl-5 pr-5" id="sendMessageButton" data-toggle="modal" data-dismiss="modal" data-target="#thank-you-modal"> Submit</button>
+   </div>
+
 
       </div>
 
-      <div class="modal-footer">
-    <button type="button" class="btn btn-primary btn-md mx-auto" data-toggle="modal" data-dismiss="modal" data-target="#thank-you-modal"> Submit</button>
-      </div>
+      
     </div>
   </div>
 </div>
