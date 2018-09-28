@@ -52,6 +52,7 @@ h5.descrption {
 }
 
 
+
 svg.z-index {
     transform: rotate(180deg);
 }
@@ -117,6 +118,10 @@ form {
     padding: 0 50px;
     text-align: center;
     margin: 10px 0;
+}
+
+.kudos-site-credit {
+    display: none;
 }
 
 .modal-header {
@@ -332,7 +337,7 @@ h3.pg-title {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
-    padding: 40px 0 10px 0;
+    padding: 60px 0 10px 0;
     font-weight: 300;
     letter-spacing: 1px;
 }
@@ -584,7 +589,13 @@ header.masthead .page-heading {
 
 h5.descrption.text-white {
     padding: 0 100px;
-}  
+} 
+
+.kudos.kudos_vertical_cards {
+    max-width: 930px;
+    margin: 0px auto;
+}
+
 
 }
 
@@ -605,6 +616,12 @@ img.img-fluid.footer-icn.hvr-bob {
 
 @media (max-width: 992px) {
   
+
+.kudos.kudos_vertical_cards {
+    max-width: 613px;
+    margin: 0px auto;
+}
+
 h2.thank-you {
     font-size: 45px;
 
@@ -644,6 +661,12 @@ img.img-fluid.footer-icn {
 
 
 @media (max-width: 768px) {
+
+
+.kudos.kudos_vertical_cards {
+    max-width: 304px;
+    margin: 0px auto;
+}
 
 .birthday-header {
     font-size: 18px;
@@ -833,10 +856,7 @@ img.img-fluid.footer-icn.facebook-icn {
     width: 22px;
 }
 
-body {
-    
-   margin-top:50px; 
-}
+
 
 
 }
