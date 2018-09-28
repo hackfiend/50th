@@ -527,13 +527,11 @@ li.nav-item.nav-section {
   border-radius: 5px;
   font-weight: normal; }
 
-header.masthead {
-  background: repeat top center;
-  background-color: #ffffff;
-  margin-bottom: 0;
+header.masthead.masthead-bg-home {
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 0; }
 
 h3.pg-title {
   font-size: 50px;
@@ -892,7 +890,7 @@ header.masthead .page-heading {
     letter-spacing: normal; } }
 @media (max-width: 575.98px) {
   p.copyright-txt {
-    margin: 12px 25px;
+    margin: 11px 25px;
     letter-spacing: .1px; }
 
   h2.thank-you {

@@ -319,13 +319,11 @@ li.nav-item.nav-section {
     font-weight: normal;
 }
 
-header.masthead {
-    background: repeat top center;
-    background-color: #ffffff;
-    margin-bottom: 0;
+header.masthead.masthead-bg-home {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    margin-bottom:0;
 }
    
 h3.pg-title {
@@ -807,7 +805,7 @@ a.btn.btn-primary.btn-md.text-center.mt-4 {
 
 @media (max-width: 575.98px) { 
 p.copyright-txt {
-    margin: 12px 25px;
+    margin: 11px 25px;
     letter-spacing: .1px;
 }
 
