@@ -378,6 +378,9 @@ form {
   text-align: center;
   margin: 10px 0; }
 
+.kudos-site-credit {
+  display: none; }
+
 .modal-header {
   border: none; }
 
@@ -527,13 +530,11 @@ li.nav-item.nav-section {
   border-radius: 5px;
   font-weight: normal; }
 
-header.masthead {
-  background: repeat top center;
-  background-color: #ffffff;
-  margin-bottom: 0;
+header.masthead.masthead-bg-home {
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 0; }
 
 h3.pg-title {
   font-size: 50px;
@@ -541,7 +542,7 @@ h3.pg-title {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
-  padding: 40px 0 10px 0;
+  padding: 60px 0 10px 0;
   font-weight: 300;
   letter-spacing: 1px; }
 
@@ -741,7 +742,11 @@ header.masthead .page-heading {
 /* Bob Hover Effect*/
 @media (min-width: 992px) {
   h5.descrption.text-white {
-    padding: 0 100px; } }
+    padding: 0 100px; }
+
+  .kudos.kudos_vertical_cards {
+    max-width: 930px;
+    margin: 0px auto; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   a.footer-links p {
     margin: 0;
@@ -751,6 +756,10 @@ header.masthead .page-heading {
   img.img-fluid.footer-icn.hvr-bob {
     width: 117px; } }
 @media (max-width: 992px) {
+  .kudos.kudos_vertical_cards {
+    max-width: 613px;
+    margin: 0px auto; }
+
   h2.thank-you {
     font-size: 45px; }
 
@@ -776,6 +785,10 @@ header.masthead .page-heading {
   img.img-fluid.footer-icn {
     max-width: 100px; } }
 @media (max-width: 768px) {
+  .kudos.kudos_vertical_cards {
+    max-width: 304px;
+    margin: 0px auto; }
+
   .birthday-header {
     font-size: 18px;
     padding: 10px 0; }
@@ -892,7 +905,7 @@ header.masthead .page-heading {
     letter-spacing: normal; } }
 @media (max-width: 575.98px) {
   p.copyright-txt {
-    margin: 12px 25px;
+    margin: 11px 25px;
     letter-spacing: .1px; }
 
   h2.thank-you {
@@ -911,7 +924,4 @@ header.masthead .page-heading {
 
   img.img-fluid.footer-icn.facebook-icn {
     margin: 17px 0 0 0;
-    width: 22px; }
-
-  body {
-    margin-top: 50px; } }
+    width: 22px; } }
