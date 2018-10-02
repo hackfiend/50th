@@ -378,9 +378,6 @@ form {
   text-align: center;
   margin: 10px 0; }
 
-.kudos-site-credit {
-  display: none; }
-
 .modal-header {
   border: none; }
 
@@ -420,9 +417,6 @@ textarea#kudo_description {
 
 div#boast-modal {
   padding: 0 !important; }
-
-a:not([href]):not([tabindex]) {
-  cursor: pointer; }
 
 a.footer-links {
   text-decoration: none; }
@@ -535,9 +529,6 @@ header.masthead.masthead-bg-home {
   min-height: 100vh;
   flex-direction: column;
   margin-bottom: 0; }
-
-header.masthead {
-  background-color: #ffffff; }
 
 h3.pg-title {
   font-size: 50px;

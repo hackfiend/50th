@@ -120,9 +120,6 @@ form {
     margin: 10px 0;
 }
 
-.kudos-site-credit {
-    display: none;
-}
 
 .modal-header {
     border:none;
@@ -178,9 +175,6 @@ div#boast-modal {
 
 
 
-a:not([href]):not([tabindex]) {
-    cursor: pointer;
-}
 
 a.footer-links {
     text-decoration: none;
@@ -330,12 +324,6 @@ header.masthead.masthead-bg-home {
     flex-direction: column;
     margin-bottom:0;
 }
-
-
-header.masthead {
-  background-color: #ffffff;
-
-  }
    
 h3.pg-title {
     font-size: 50px;
