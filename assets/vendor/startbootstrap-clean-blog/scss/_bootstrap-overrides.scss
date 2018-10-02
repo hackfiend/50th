@@ -348,6 +348,15 @@ span.translation_missing {
     font-weight: 600;
 }
 
+msg-error {
+  color: #c65848;
+}
+.g-recaptcha.error {
+  border: solid 2px #c64848;
+  padding: .2em;
+  width: 19em;
+}
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #4a4a4a;
     background-color: #cabc13 !important;
