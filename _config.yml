@@ -6,9 +6,9 @@ baseurl:           ""
 url:               "https://50.acecashexpress.com"
 
 # Social Profiles
-twitter_username:  SBootstrap
+twitter_username:  AceCashExpress
 github_username:   AceCashExpress
-facebook_username: acecashexpress
+facebook_username: AceCashExpress
 
 # Build settings
 markdown:          kramdown

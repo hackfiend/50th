@@ -17,28 +17,28 @@
           <span>Please Sign Our Birthday Card</span>
 
         </div>
-
-    <form>
+ 
+    <form method="post" action="/thank-you">
       <div class="row">
         <div class="col-sm-6">
           <label for="inputFullname">First and Last Name</label>
-            <input type="text" class="form-control" id="inputFullname" placeholder="First and Last Name ">
+            <input required type="text" class="form-control" name="name" id="inputFullname" placeholder="First and Last Name ">
         </div>
         <div class="col-sm-6">
           <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Your email address">
+            <input required type="email" name="email" class="form-control" id="inputEmail4" placeholder="Your email address">
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-6">
           <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity" placeholder="City">
+            <input required type="text" name="city" class="form-control" id="inputCity" placeholder="City">
         </div>
         <div class="col-sm-6">
         <div class="form-group">
         <label for="inputEmail4">State</label>  
-        <select class="custom-select" required>
+        <select required name="state" class="custom-select" required>
           <option value="state-select">Select State</option>
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
@@ -96,17 +96,43 @@
         </div>
       </div>
 
+      <div class="row mb-3">
+        <div class="col-sm-12">
+          <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">Yes, please send me email updates and offers from ACE Cash Express.</label>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mb-3" style="max-width: 300px; margin: 0 auto;">
+      <div class="g-recaptcha" data-sitekey="6LdrXEYUAAAAAKN5tiJCWGV6IsDrkniTa1Pcm8dT"></div>
+      </div>
+
+
+
+      <input type="hidden" name="_subject" value="Birthday Signature Received!">
+      <input type="hidden" name="_to" value="maxsuraz@gmail.com">
+
+
+    <div class="form-group text-center">
+    <input type="submit" value="Send Message" class="btn btn-primary btn-md mx-auto pl-5 pr-5" data-target="thank-you-modal">
+
     </form>
 
+    
+   </div>
+
 
       </div>
 
-      <div class="modal-footer">
-    <button type="button" class="btn btn-primary btn-md mx-auto" data-toggle="modal" data-dismiss="modal" data-target="#thank-you-modal"> Submit</button>
-      </div>
+      
     </div>
   </div>
+
 </div>
+
 
 
 <!-- Modal Thank You-->
@@ -128,7 +154,7 @@
 
       </div>
       <div class="modal-footer">
-        <a class="btn btn-primary btn-md mx-auto mt-3" href="{{"/view-our-birthday-wishes.html" | relative_url }}">View Our Birthday Wishes</a>
+        <a class="btn-primary btn-md mx-auto mt-3" href="{{"/view-our-birthday-wishes.html" | relative_url }}">View Our Birthday Wishes</a>
       </div>
     </div>
   </div>
@@ -144,7 +170,6 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      
       <div class="modal-body">
         <div class="col-lg-12 col-md-12 text-center">
             <script src='https://secure.boast.io/site/kudos/N9QATY/js_embed?jquery=auto'></script>
@@ -155,5 +180,6 @@
     </div>
   </div>
 </div>
+
 
 
