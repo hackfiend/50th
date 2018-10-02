@@ -12,8 +12,9 @@
     
   </title>
 
-  <meta name="description" content="A Blog Theme by Start Bootstrap">
-
+  <meta name="description" content="Ace Cash Express">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 <!--
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> -->
@@ -21,15 +22,19 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
 
-  <link rel="stylesheet" href="/ACE50Years/assets/vendor/bootstrap/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="/ACE50Years/assets/vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="/ACE50Years/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/ACE50Years/ace-story.html">
-  <link rel="alternate" type="application/rss+xml" title="ACE Cash Express" href="/ACE50Years/feed.xml">
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/ace-story">
+  <link rel="alternate" type="application/rss+xml" title="ACE Cash Express" href="/feed.xml">
 
   <script src='https://www.google.com/recaptcha/api.js'></script>
+  
+  <!-- Boast Camera Tag -->
+
 
 </head>
 
@@ -76,17 +81,17 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item nav-section">
-          <a href="/ACE50Years/">
+          <a href="/">
             <img src="img/icn-sign-birthday-selected.svg" class="img-fluid d-flex align-items-center" alt="Sign Our Birthday Card">
           </a>   
-        <a class="nav-link" href="/ACE50Years/"><p>Sign Our Birthday Card</p></a>
+        <a class="nav-link" href="/"><p>Sign Our Birthday Card</p></a>
       </li>
 
       <li class="nav-item nav-section">
-          <a href="/ACE50Years/view-our-birthday-wishes.html">
+          <a href="/view-our-birthday-wishes">
             <img src="img/icn-birthday.svg" class="img-fluid d-flex align-items-center" alt="View Our Birthday Wishes">
           </a>  
-        <a class="nav-link" href="/ACE50Years/view-our-birthday-wishes.html"><p>View Our Birthday Wishes</p></a>
+        <a class="nav-link" href="/view-our-birthday-wishes"><p>View Our Birthday Wishes</p></a>
       </li>
 
       <li class="nav-item nav-section">
@@ -97,17 +102,17 @@
       </li>
       
       <li class="nav-item nav-section">
-          <a href="/ACE50Years/ace-story.html">
+          <a href="/ace-story">
             <img src="img/icn-watch-video.svg" class="img-fluid d-flex align-items-center" alt="View Your Ace Stories">
           </a>  
-        <a class="nav-link" href="/ACE50Years/ace-story.html"><p>View Your Ace Stories</p></a>
+        <a class="nav-link" href="/ace-story"><p>View Your Ace Stories</p></a>
       </li>
 
       <li class="nav-item nav-section">
-          <a href="/ACE50Years/ace-history.html">
+          <a href="/ace-history">
             <img src="img/icn-ace-50yrs.svg" class="img-fluid d-flex align-items-center" alt="The History of ACE Cash Express">
           </a>  
-        <a class="nav-link" href="/ACE50Years/ace-history.html"><p>The History of ACE Cash Express</p></a>
+        <a class="nav-link" href="/ace-history"><p>The History of ACE Cash Express</p></a>
       </li>
   
     </ul>
@@ -186,7 +191,7 @@
 
         </div>
 
-    <form method="post" action="/success.html">
+    <form method="post">
       <div class="row">
         <div class="col-sm-6">
           <label for="inputFullname">First and Last Name</label>
@@ -206,7 +211,7 @@
         <div class="col-sm-6">
         <div class="form-group">
         <label for="inputEmail4">State</label>  
-        <select class="custom-select" required>
+        <select name="state" class="custom-select" required>
           <option value="state-select">Select State</option>
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
@@ -274,7 +279,7 @@
         
       </div>
 
-      <div class="row mb-3" style="max-width: 300px;" mx-auto>
+      <div class="row mb-3" style="max-width: 300px; margin: 0 auto;">
       <div class="g-recaptcha" data-sitekey="6LdrXEYUAAAAAKN5tiJCWGV6IsDrkniTa1Pcm8dT"></div>
       </div>
 
@@ -283,10 +288,13 @@
       <input type="hidden" name="_subject" value="Birthday Signature Received!">
       <input type="hidden" name="_to" value="maxsuraz@gmail.com">
 
-    </form>
 
     <div class="form-group text-center">
-    <button type="submit" class="btn btn-primary btn-md mx-auto pl-5 pr-5" id="sendMessageButton" data-toggle="modal" data-dismiss="modal" data-target="#thank-you-modal"> Submit</button>
+    <input type="submit" value="Send Message" class="btn btn-primary btn-md mx-auto pl-5 pr-5">
+
+    </form>
+
+    
    </div>
 
 
@@ -317,7 +325,7 @@
 
       </div>
       <div class="modal-footer">
-        <a class="btn btn-primary btn-md mx-auto mt-3" href="/ACE50Years/view-our-birthday-wishes.html">View Our Birthday Wishes</a>
+        <a class="btn-primary btn-md mx-auto mt-3" href="/view-our-birthday-wishes.html">View Our Birthday Wishes</a>
       </div>
     </div>
   </div>
@@ -352,7 +360,7 @@
 
 <svg class="z-index" width="100%" height="100%" viewBox="0 0 2870 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <polygon id="Rectangle-Copy-5" fill="#0A9A5D" points="0 94.6302108 1440.12939 0 2880 94.6302108 2880 107 0 107"></polygon>
-    </g>
+    
 </svg>
       </div>
 
@@ -363,19 +371,19 @@
     <div class="row footer-bg">
       
       <div class="col footer-block">
-          <a href="/ACE50Years/">
+          <a href="/">
             <img src="img/icn-sign-birthday.svg" class="img-fluid footer-icn active hvr-bob" alt="Sign Our Birthday Card">
           </a>  
-              <a href="/ACE50Years/" class="footer-links"alt="">
+              <a href="/" class="footer-links"alt="">
                 <p class="text-secondary">Sign Our<br/>Birthday Card</p>
               </a>
       </div>
 
       <div class="col footer-block">
-        <a href="/ACE50Years/view-our-birthday-wishes.html">
+        <a href="/view-our-birthday-wishes">
           <img src="img/icn-birthday.svg" class="img-fluid footer-icn hvr-bob" alt="View Our Birthday Wishes">
         </a>  
-            <a href="/ACE50Years/view-our-birthday-wishes.html" class="footer-links"alt="">
+            <a href="/view-our-birthday-wishes" class="footer-links"alt="">
                 <p class="text-secondary" class="text-secondary">View Our<br/>Birthday Wishes</p>
             </a>
       </div>
@@ -390,19 +398,19 @@
       </div>
 
       <div class="col footer-block">
-        <a href="/ACE50Years/ace-story.html">
+        <a href="/ace-story">
           <img src="img/icn-watch-video.svg" class="img-fluid footer-icn hvr-bob" alt="View Your Ace Stories">
         </a>  
-            <a href="/ACE50Years/ace-story.html" class="footer-links"alt="">
+            <a href="/ace-story" class="footer-links"alt="">
                 <p class="text-secondary">View Your<br/>Ace Stories</p>
             </a>
       </div>
 
       <div class="col footer-block">
-        <a href="/ACE50Years/ace-history.html">
+        <a href="/ace-history">
           <img src="img/icn-ace-50yrs.svg" class="img-fluid footer-icn hvr-bob" alt="The History of ACE Cash Express">
         </a>  
-            <a href="/ACE50Years/ace-history.html" class="footer-links"alt="">
+            <a href="/ace-history" class="footer-links"alt="">
                 <p class="text-secondary">The History of<br/>ACE Cash Express</p>
             </a>
       </div>
@@ -449,11 +457,11 @@
 </section>
 
 
-    <script src="/ACE50Years/assets/vendor/jquery/jquery.min.js"></script>
-<script src="/ACE50Years/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/ACE50Years/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
 
-<script src="/ACE50Years/assets/scripts.js"></script>
+<script src="/assets/scripts.js"></script>
 
 
 
