@@ -107,7 +107,7 @@
       </div>
 
       <div class="row mb-3" style="max-width: 300px; margin: 0 auto;">
-      <div id="recaptcha" class="g-recaptcha" data-sitekey="6LdrXEYUAAAAAKN5tiJCWGV6IsDrkniTa1Pcm8dT"></div>
+      <div class="g-recaptcha" data-sitekey="6LdrXEYUAAAAAKN5tiJCWGV6IsDrkniTa1Pcm8dT"></div>
       </div>
 
 
@@ -117,7 +117,7 @@
 
 
     <div class="form-group text-center">
-    <input type="submit" id="btn-validate" value="Send Message" class="btn btn-primary btn-md mx-auto pl-5 pr-5" data-target="thank-you-modal">
+    <input type="submit" value="Send Message" class="btn btn-primary btn-md mx-auto pl-5 pr-5" data-target="thank-you-modal">
 
     </form>
 
@@ -182,21 +182,4 @@
 </div>
 
 
-<script>
-  $( '#btn-validate' ).click(function(){
-  var $captcha = $( '#recaptcha' ),
-      response = grecaptcha.getResponse();
-  
-  if (response.length === 0) {
-    $( '.msg-error').text( "reCAPTCHA is mandatory" );
-    if( !$captcha.hasClass( "error" ) ){
-      $captcha.addClass( "error" );
-    }
-  } else {
-    $( '.msg-error' ).text('');
-    $captcha.removeClass( "error" );
-    alert( 'reCAPTCHA marked' );
-  }
-})
-</script>
 
