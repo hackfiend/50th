@@ -303,7 +303,7 @@ a:not([href]):not([tabindex]) {
     letter-spacing: normal;
     line-height: normal;
     border-radius: 5px;
-    font-weight: 600 !important;
+    font-weight: normal;
 }
 
 header.masthead.masthead-bg-home {
@@ -333,6 +333,13 @@ h3.pg-title {
 header.masthead .page-heading {
     color: #4a4a4a;
 }
+
+.thank-you {
+    margin: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
 
 .btn-primary {
     background-color: #f8e71c;
