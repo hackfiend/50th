@@ -1,14 +1,14 @@
 title:             ACE Cash Express
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/ACE50Years"
-url:               "http://blackrockdigital.github.io"
+email:             customerservice@acecashexpress.com
+description:       Ace Cash Express
+author:            Ace Cash Express
+baseurl:           ""
+url:               "https://50.acecashexpress.com"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+twitter_username:  AceCashExpress
+github_username:   AceCashExpress
+facebook_username: AceCashExpress
 
 # Build settings
 markdown:          kramdown
