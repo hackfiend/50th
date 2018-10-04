@@ -51,7 +51,10 @@ h5.descrption {
     text-align: center;
 }
 
-
+.recaptScale {
+    transform:scale(0.8);
+    -webkit-transform:scale(0.8);
+  }
 
 svg.z-index {
     transform: rotate(180deg);
@@ -80,7 +83,6 @@ label {
 
 .custom-select {
     font-size: .8rem;
-    color: #9b9b9b;
 }
 
 
@@ -290,10 +292,12 @@ a:not([href]):not([tabindex]) {
 
 
 .btn-lg {
-    font-size: 26px;
-    padding: 10px 35px !important;
+    font-size: 24px;
+    padding: 15px 25px !important;
     font-weight: normal !important;
     margin: 0 0 50px !important;
+    text-transform: uppercase;
+    letter-spacing: .015em;
 }
 
 .btn-md {
@@ -871,7 +875,9 @@ img.img-fluid.footer-icn.facebook-icn {
     width: 22px;
 }
 
-
+.plain_layout .width-500 .vjs-big-play-button {
+    left: 34% !important;
+}
 
 
 }
