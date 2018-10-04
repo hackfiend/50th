@@ -514,9 +514,6 @@ a:not([href]):not([tabindex]) {
   font-weight: normal; }
 
 header.masthead.masthead-bg-home {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
   margin-bottom: 0; }
 
 header.masthead {
@@ -688,7 +685,7 @@ img.img-fluid.footer-icn.facebook-icn {
 
 header.masthead .page-heading {
   color: #4a4a4a;
-  padding: 1% 0 5% 0; }
+  padding: 1% 0 10% 0; }
 
 /* Bob Hover Effect*/
 @-webkit-keyframes hvr-bob {
