@@ -61,7 +61,7 @@ p.text-center {
     color: #ffffff;
     font-family: Gotham-light;
     font-size: 16px;
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 .video {
@@ -80,7 +80,6 @@ label {
 
 .custom-select {
     font-size: .8rem;
-    color: #9b9b9b;
 }
 
 
@@ -290,10 +289,12 @@ a:not([href]):not([tabindex]) {
 
 
 .btn-lg {
-    font-size: 26px;
-    padding: 10px 35px !important;
+    font-size: 24px;
+    padding: 15px 25px !important;
     font-weight: normal !important;
     margin: 0 0 50px !important;
+    text-transform: uppercase;
+    letter-spacing: .015em;
 }
 
 .btn-md {
@@ -303,7 +304,9 @@ a:not([href]):not([tabindex]) {
     letter-spacing: normal;
     line-height: normal;
     border-radius: 5px;
-    font-weight: normal;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+
 }
 
 header.masthead.masthead-bg-home {
@@ -842,6 +845,10 @@ p.copyright-txt {
 }
 
 
+.p-button {
+    font-size: 12px !important;
+    padding: 8px !important;
+}
 
 h2.thank-you {
     font-size: 23px !important;
@@ -865,7 +872,10 @@ img.img-fluid.footer-icn.facebook-icn {
     width: 22px;
 }
 
-
+.recaptScale {
+    transform:scale(0.8);
+    -webkit-transform:scale(0.8);
+  }
 
 
 }

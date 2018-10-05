@@ -333,7 +333,7 @@ p.text-center {
   color: #ffffff;
   font-family: Gotham-light;
   font-size: 16px;
-  margin: 0; }
+  margin: 0 0 20px 0; }
 
 .video {
   padding: 0 2rem; }
@@ -347,8 +347,7 @@ label {
   font-size: .8rem; }
 
 .custom-select {
-  font-size: .8rem;
-  color: #9b9b9b; }
+  font-size: .8rem; }
 
 .row.footer-bg-svg {
   margin-right: 0px;
@@ -499,10 +498,12 @@ a:not([href]):not([tabindex]) {
   cursor: pointer; }
 
 .btn-lg {
-  font-size: 26px;
-  padding: 10px 35px !important;
+  font-size: 24px;
+  padding: 15px 25px !important;
   font-weight: normal !important;
-  margin: 0 0 50px !important; }
+  margin: 0 0 50px !important;
+  text-transform: uppercase;
+  letter-spacing: .015em; }
 
 .btn-md {
   font-family: Gotham;
@@ -511,7 +512,8 @@ a:not([href]):not([tabindex]) {
   letter-spacing: normal;
   line-height: normal;
   border-radius: 5px;
-  font-weight: normal; }
+  font-weight: 600 !important;
+  text-transform: uppercase; }
 
 header.masthead.masthead-bg-home {
   margin-bottom: 0; }
@@ -908,6 +910,10 @@ header.masthead .page-heading {
     margin: 11px 25px;
     letter-spacing: .1px; }
 
+  .p-button {
+    font-size: 12px !important;
+    padding: 8px !important; }
+
   h2.thank-you {
     font-size: 23px !important; }
 
@@ -924,4 +930,8 @@ header.masthead .page-heading {
 
   img.img-fluid.footer-icn.facebook-icn {
     margin: 17px 0 0 0;
-    width: 22px; } }
+    width: 22px; }
+
+  .recaptScale {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8); } }
