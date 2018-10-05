@@ -23,6 +23,14 @@
     
 }
 
+.bg-new {
+    background: #2c9a5d;
+}
+
+.page-heading {
+    padding: 1% 0 10% 0;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Gotham';
@@ -51,10 +59,7 @@ h5.descrption {
     text-align: center;
 }
 
-.recaptScale {
-    transform:scale(0.8);
-    -webkit-transform:scale(0.8);
-  }
+
 
 svg.z-index {
     transform: rotate(180deg);
@@ -88,8 +93,13 @@ label {
 
 
 .row.footer-bg-svg {
-    margin-right:0px;
-    margin-left:0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -1px;
+}
+
+.page-heading-new{
+    text-align:center;
 }
 
 form {
@@ -598,6 +608,13 @@ header.masthead .page-heading {
   /* Bob Hover Effect*/
 
 
+@media (min-width: 1200px) { 
+    
+ img.img-fluid.footer-icn.hvr-bob {
+    min-width: 130px !important;
+}
+
+}
 
 
 @media (min-width: 992px){
@@ -875,9 +892,10 @@ img.img-fluid.footer-icn.facebook-icn {
     width: 22px;
 }
 
-.plain_layout .width-500 .vjs-big-play-button {
-    left: 34% !important;
-}
+.recaptScale {
+    transform:scale(0.8);
+    -webkit-transform:scale(0.8);
+  }
 
 
 }
