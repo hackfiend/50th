@@ -303,6 +303,12 @@ footer {
 @font-face {
   font-family: "Gotham-Thin";
   src: url("font/Gotham-Thin.otf"); }
+.bg-new {
+  background: #2c9a5d; }
+
+.page-heading {
+  padding: 1% 0 10% 0; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Gotham'; }
 
@@ -351,7 +357,11 @@ label {
 
 .row.footer-bg-svg {
   margin-right: 0px;
-  margin-left: 0px; }
+  margin-left: 0px;
+  margin-top: -1px; }
+
+.page-heading-new {
+  text-align: center; }
 
 form {
   padding: 10px 40px; }
@@ -742,6 +752,9 @@ header.masthead .page-heading {
   animation-direction: normal, alternate; }
 
 /* Bob Hover Effect*/
+@media (min-width: 1200px) {
+  img.img-fluid.footer-icn.hvr-bob {
+    min-width: 130px !important; } }
 @media (min-width: 992px) {
   h5.descrption.text-white {
     padding: 0 100px; }
