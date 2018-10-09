@@ -24,7 +24,11 @@
 }
 
 .bg-new {
-    background: #2c9a5d;
+    background: rgb(10, 154, 93);
+}
+
+img.hvr-bob.footer-icn.img-fluid{
+    min-height: 130px;
 }
 
 .page-heading {
@@ -96,6 +100,11 @@ label {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: -1px;
+}
+
+.row.footer-bg-svg-hp {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .page-heading-new{
@@ -459,9 +468,8 @@ p.card-text {
 }
 
 
-
 footer{
-  background-color: #0A9A5D;
+  background-color: rgb(10, 154, 93);
   width:100%;
 
 }
@@ -612,6 +620,10 @@ header.masthead .page-heading {
     
  img.img-fluid.footer-icn.hvr-bob {
     min-width: 130px !important;
+}
+
+.row.footer-bg-svg {
+    margin-top: -3px;
 }
 
 }
@@ -864,6 +876,9 @@ p.copyright-txt {
     letter-spacing: .1px;
 }
 
+p.post-thankyou {
+    padding: 0 10px;
+}
 
 .p-button {
     font-size: 12px !important;
@@ -902,3 +917,9 @@ img.img-fluid.footer-icn.facebook-icn {
 
 
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+    .row.footer-bg-svg {
+    margin-top: -45px;
+}
+}

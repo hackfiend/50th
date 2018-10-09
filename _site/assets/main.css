@@ -304,7 +304,10 @@ footer {
   font-family: "Gotham-Thin";
   src: url("font/Gotham-Thin.otf"); }
 .bg-new {
-  background: #2c9a5d; }
+  background: #0a9a5d; }
+
+img.hvr-bob.footer-icn.img-fluid {
+  min-height: 130px; }
 
 .page-heading {
   padding: 1% 0 10% 0; }
@@ -359,6 +362,10 @@ label {
   margin-right: 0px;
   margin-left: 0px;
   margin-top: -1px; }
+
+.row.footer-bg-svg-hp {
+  margin-right: 0px;
+  margin-left: 0px; }
 
 .page-heading-new {
   text-align: center; }
@@ -636,7 +643,7 @@ p.card-text {
   margin: 23px 0; }
 
 footer {
-  background-color: #0A9A5D;
+  background-color: #0a9a5d;
   width: 100%; }
 
 .footer-block {
@@ -754,7 +761,10 @@ header.masthead .page-heading {
 /* Bob Hover Effect*/
 @media (min-width: 1200px) {
   img.img-fluid.footer-icn.hvr-bob {
-    min-width: 130px !important; } }
+    min-width: 130px !important; }
+
+  .row.footer-bg-svg {
+    margin-top: -3px; } }
 @media (min-width: 992px) {
   h5.descrption.text-white {
     padding: 0 100px; }
@@ -923,6 +933,9 @@ header.masthead .page-heading {
     margin: 11px 25px;
     letter-spacing: .1px; }
 
+  p.post-thankyou {
+    padding: 0 10px; }
+
   .p-button {
     font-size: 12px !important;
     padding: 8px !important; }
@@ -948,3 +961,6 @@ header.masthead .page-heading {
   .recaptScale {
     transform: scale(0.8);
     -webkit-transform: scale(0.8); } }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .row.footer-bg-svg {
+    margin-top: -45px; } }
