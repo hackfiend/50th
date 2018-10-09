@@ -95,7 +95,7 @@ label {
 .row.footer-bg-svg {
     margin-right: 0px;
     margin-left: 0px;
-    margin-top: -3px;
+    margin-top: -1px;
 }
 
 .row.footer-bg-svg-hp {
@@ -618,6 +618,10 @@ header.masthead .page-heading {
     min-width: 130px !important;
 }
 
+.row.footer-bg-svg {
+    margin-top: -3px;
+}
+
 }
 
 
@@ -868,6 +872,9 @@ p.copyright-txt {
     letter-spacing: .1px;
 }
 
+p.post-thankyou {
+    padding: 0 10px;
+}
 
 .p-button {
     font-size: 12px !important;
