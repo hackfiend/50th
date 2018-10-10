@@ -70,16 +70,16 @@
 
       <li class="nav-item nav-section">
           <a data-toggle="modal" data-dismiss="modal" data-target="#boast-modal">
-            <img src="img/icn-ace-story.svg" class="img-fluid d-flex align-items-center" alt="Submit Your Ace Story">
+            <img src="img/icn-ace-story.svg" class="img-fluid d-flex align-items-center" alt="Tell Us Your ACE Story">
           </a>  
-        <a class="nav-link" data-toggle="modal" data-dismiss="modal" data-target="#boast-modal" style="color:#ffffff;"><p>Submit Your Ace Story</p></a>
+        <a class="nav-link" data-toggle="modal" data-dismiss="modal" data-target="#boast-modal" style="color:#ffffff;"><p>Tell Us Your ACE Story</p></a>
       </li>
       
       <li class="nav-item nav-section">
           <a href="/ace-story">
-            <img src="img/icn-watch-video.svg" class="img-fluid d-flex align-items-center" alt="View Your Ace Stories">
+            <img src="img/icn-watch-video.svg" class="img-fluid d-flex align-items-center" alt="View Your ACE Stories">
           </a>  
-        <a class="nav-link" href="/ace-story"><p>View Your Ace Stories</p></a>
+        <a class="nav-link" href="/ace-story"><p>View Your ACE Stories</p></a>
       </li>
 
       <li class="nav-item nav-section">
@@ -110,6 +110,8 @@
             <h2 class="thank-you">THANK YOU FOR HELPING</h2>
              <h1 class="celebrate mb-5">ACE CELEBRATE 50 YEARS</h1>
                   <a class="btn-primary btn-lg text-center" data-toggle="modal" data-target="#sign-birthday-card"data-toggle="modal" data-dismiss="modal" data-target="#sign-birthday-card" >Sign Our Birthday Card</a>
+
+                  
 
             <!--copyright hp only -->
 
@@ -174,29 +176,29 @@
           <span>Please Sign Our Birthday Card</span>
 
         </div>
-
-    <form method="post">
+ 
+    <form method="post" action="/thank-you">
       <div class="row">
         <div class="col-sm-6">
           <label for="inputFullname">First and Last Name</label>
-            <input type="text" class="form-control" name="name" id="inputFullname" placeholder="First and Last Name ">
+            <input required type="text" class="form-control" name="Name" id="inputFullname" placeholder="First and Last Name ">
         </div>
         <div class="col-sm-6">
           <label for="inputEmail4">Email</label>
-            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Your email address">
+            <input required type="email" name="Email" class="form-control" id="inputEmail4" placeholder="Your email address">
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-6">
           <label for="inputCity">City</label>
-            <input type="text" name="city" class="form-control" id="inputCity" placeholder="City">
+            <input required type="text" name="City" class="form-control" id="inputCity" placeholder="City">
         </div>
         <div class="col-sm-6">
         <div class="form-group">
         <label for="inputEmail4">State</label>  
-        <select name="state" class="custom-select" required>
-          <option value="state-select">Select State</option>
+        <select required name="State" class="custom-select">
+          <option value="">Select State</option>
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
           <option value="AZ">Arizona</option>
@@ -255,8 +257,8 @@
 
       <div class="row mb-3">
         <div class="col-sm-12">
-          <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <div class="form-check form-check-inline">
+          <input class="form-check-input active" name="Email Offers Opt-In" type="checkbox" value="Yes" checked="checked" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">Yes, please send me email updates and offers from ACE Cash Express.</label>
           </div>
         </div>
@@ -264,17 +266,23 @@
       </div>
 
       <div class="row mb-3" style="max-width: 300px; margin: 0 auto;">
-      <div class="g-recaptcha" data-sitekey="6LdrXEYUAAAAAKN5tiJCWGV6IsDrkniTa1Pcm8dT"></div>
+      <div class="g-recaptcha recaptScale"  data-sitekey="6LdrXEYUAAAAAKN5tiJCWGV6IsDrkniTa1Pcm8dT"></div>
       </div>
 
 
 
       <input type="hidden" name="_subject" value="Birthday Signature Received!">
-      <input type="hidden" name="_to" value="maxsuraz@gmail.com">
+
+       <input type="hidden" name="_to" value="maxsuraz@gmail.com">
+       <input type="hidden" name="_cc" value="mdiaz@acecashexpress.com">
+       <input type="hidden" name="_cc" value="kl1m9wyl@robot.zapier.com">
+       <input type="hidden" name="_cc" value="mdollah@acecashexpress.com">
+       <input type="hidden" name="_cc" value="slee@acecashexpress.com">
+
 
 
     <div class="form-group text-center">
-    <input type="submit" value="Send Message" class="btn btn-primary btn-md mx-auto pl-5 pr-5">
+    <input type="submit" value="Send Message" class="btn btn-primary btn-md mx-auto pl-5 pr-5" data-target="thank-you-modal">
 
     </form>
 
@@ -287,7 +295,9 @@
       
     </div>
   </div>
+
 </div>
+
 
 
 <!-- Modal Thank You-->
@@ -339,8 +349,9 @@
 
 
 
+
     <!-- Footer -->
-<div class="row footer-bg-svg">
+<div class="row footer-bg-svg-hp">
         
 
 <svg class="d-none d-sm-block" width="100%" height="100%" viewBox="0 0 2870 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -357,7 +368,7 @@
       
       <div class="col footer-block">
           <a href="/">
-            <img src="img/icn-sign-birthday.svg" class="img-fluid footer-icn active hvr-bob" alt="Sign Our Birthday Card">
+            <img src="img/icn-sign-birthday-selected.svg" class="img-fluid footer-icn active hvr-bob" alt="Sign Our Birthday Card">
           </a>  
               <a class="footer-links" href="/" class="footer-links"alt="">
                 <p>Sign Our<br/>Birthday Card</p>
@@ -375,19 +386,19 @@
 
       <div class="col footer-block">
         <a data-toggle="modal" data-dismiss="modal" data-target="#boast-modal">
-          <img src="img/icn-ace-story.svg" class="img-fluid footer-icn hvr-bob" alt="Submit Your ACE Story">
+          <img src="img/icn-ace-story.svg" class="img-fluid footer-icn hvr-bob" alt="Tell Us Your ACE Story">
         </a>  
             <a data-toggle="modal" data-dismiss="modal" data-target="#boast-modal" class="footer-links"alt="">
-                <p>Submit Your<br/>ACE Story</p>
+                <p>Tell Us Your<br/>ACE Story</p>
             </a>
       </div>
 
       <div class="col footer-block">
         <a href="/ace-story">
-          <img src="img/icn-watch-video.svg" class="img-fluid footer-icn hvr-bob" alt="View Your Ace Stories">
+          <img src="img/icn-watch-video.svg" class="img-fluid footer-icn hvr-bob" alt="View Your ACE Stories">
         </a>  
             <a href="/ace-story" class="footer-links"alt="">
-                <p>View Your<br/>Ace Stories</p>
+                <p>View Your<br/>ACE Stories</p>
             </a>
       </div>
 
