@@ -963,4 +963,10 @@ header.masthead .page-heading {
     -webkit-transform: scale(0.8); } }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .row.footer-bg-svg {
-    margin-top: -45px; } }
+    margin-top: -45px; }
+
+  .row.footer-bg-svg-hp {
+    margin-bottom: -45px; }
+
+  h5.descrption {
+    font-family: 'Gotham'; } }
