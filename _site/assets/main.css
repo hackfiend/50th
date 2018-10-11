@@ -306,8 +306,11 @@ footer {
 .bg-new {
   background: #0a9a5d; }
 
-img.hvr-bob.footer-icn.img-fluid {
-  min-height: 130px; }
+.custom-control {
+  font-size: 12px; }
+
+.nav-trans {
+  background: rgba(25, 168, 109, 0.7) !important; }
 
 .page-heading {
   padding: 1% 0 10% 0; }
@@ -760,11 +763,12 @@ header.masthead .page-heading {
 
 /* Bob Hover Effect*/
 @media (min-width: 1200px) {
-  img.img-fluid.footer-icn.hvr-bob {
-    min-width: 130px !important; }
-
   .row.footer-bg-svg {
-    margin-top: -3px; } }
+    margin-top: -3px; }
+
+  img.hvr-bob.footer-icn.img-fluid {
+    min-height: 130px;
+    min-width: 130px; } }
 @media (min-width: 992px) {
   h5.descrption.text-white {
     padding: 0 100px; }
@@ -779,7 +783,8 @@ header.masthead .page-heading {
     font-size: 16px; }
 
   img.img-fluid.footer-icn.hvr-bob {
-    width: 117px; } }
+    width: 117px;
+    height: 117px; } }
 @media (max-width: 992px) {
   .kudos.kudos_vertical_cards {
     max-width: 613px;
@@ -844,7 +849,8 @@ header.masthead .page-heading {
     font-size: 47px !important; }
 
   img.img-fluid.footer-icn.hvr-bob {
-    width: 93px; }
+    width: 93px;
+    height: 93px; }
 
   a.footer-links p {
     margin: 0;
@@ -876,7 +882,8 @@ header.masthead .page-heading {
     width: 270px; }
 
   img.img-fluid.footer-icn.hvr-bob {
-    width: 72px; }
+    width: 72px;
+    height: 72px; }
 
   a.footer-links p {
     margin: 0;
@@ -960,10 +967,27 @@ header.masthead .page-heading {
 
   .recaptScale {
     transform: scale(0.8);
-    -webkit-transform: scale(0.8); } }
+    -webkit-transform: scale(0.8); }
+
+  form {
+    padding: 10px 10px; }
+
+  .sign-header {
+    padding: 20px 0;
+    margin: 35px 10px;
+    font-size: 16px; }
+
+  .form-check {
+    display: inline-flex; } }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .row.footer-bg-svg {
     margin-top: -45px; }
 
+  .row.footer-bg-svg-hp {
+    margin-bottom: -45px; }
+
   h5.descrption {
-    font-family: 'Gotham'; } }
+    font-family: 'Gotham'; }
+
+  #kudos_submit input[type='submit'] {
+    color: #4a4a4a; } }
