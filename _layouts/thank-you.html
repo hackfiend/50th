@@ -2,6 +2,62 @@
 layout: template
 ---
 
+<!-- Mobile Navigation Other Pages-->
+
+<nav class="navbar fixed-top nav-bg d-sm-none">
+  <a class="navbar-brand" href="https://www.acecashexpress.com/" target="_blank">
+            <img src="img/footer-logo.svg" class="img-fluid nav-logo" alt="ACE Cash Express">
+        </a> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">
+      <img src="img/menu.svg" class="img-fluid">
+    </span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item nav-section">
+          <a href="{{"/" | relative_url }}">
+            <img src="img/icn-sign-birthday.svg" class="img-fluid d-flex align-items-center" alt="Sign Our Birthday Card">
+          </a>   
+        <a class="nav-link" href="{{"/" | relative_url }}"><p>Sign Our Birthday Card</p></a>
+      </li>
+
+      <li class="nav-item nav-section">
+          <a href="{{"/view-our-birthday-wishes" | relative_url }}">
+            <img src="img/icn-birthday.svg" class="img-fluid d-flex align-items-center" alt="View Our Birthday Wishes">
+          </a>  
+        <a class="nav-link" href="{{"/view-our-birthday-wishes" | relative_url }}"><p>View Our Birthday Wishes</p></a>
+      </li>
+
+      <li class="nav-item nav-section">
+          <a data-toggle="modal" data-dismiss="modal" data-target="#boast-modal">
+            <img src="img/icn-ace-story.svg" class="img-fluid d-flex align-items-center" alt="Tell Us Your ACE Story">
+          </a>  
+        <a class="nav-link" data-toggle="modal" data-dismiss="modal" data-target="#boast-modal" style="color:#ffffff;"><p>Tell Us Your ACE Story</p></a>
+      </li>
+      
+      <li class="nav-item nav-section">
+          <a href="{{"/ace-story" | relative_url }}">
+            <img src="img/icn-watch-video.svg" class="img-fluid d-flex align-items-center" alt="View Your ACE Stories">
+          </a>  
+        <a class="nav-link" href="{{"/ace-story" | relative_url }}"><p>View Your ACE Stories</p></a>
+      </li>
+
+      <li class="nav-item nav-section">
+          <a href="{{"/ace-history" | relative_url }}">
+            <img src="img/icn-ace-50yrs.svg" class="img-fluid d-flex align-items-center" alt="The History of ACE Cash Express">
+          </a>  
+        <a class="nav-link" href="{{"/ace-history" | relative_url }}"><p>The History of ACE Cash Express</p></a>
+      </li>
+  
+    </ul>
+  
+  </div>
+</nav>
+
+<!--Mobile Navigation -->
+
 <!-- Page Header -->
 
     <div class="bg-new pb-4" style="margin-top:50px;">
