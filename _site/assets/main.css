@@ -961,7 +961,15 @@ header.masthead .page-heading {
 
   .recaptScale {
     transform: scale(0.8);
-    -webkit-transform: scale(0.8); } }
+    -webkit-transform: scale(0.8); }
+
+  form {
+    padding: 10px 10px; }
+
+  .sign-header {
+    padding: 20px 0;
+    margin: 35px 10px;
+    font-size: 16px; } }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .row.footer-bg-svg {
     margin-top: -45px; }
