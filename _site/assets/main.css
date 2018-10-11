@@ -309,6 +309,9 @@ footer {
 .custom-control {
   font-size: 12px; }
 
+.nav-trans {
+  background: rgba(25, 168, 109, 0.7) !important; }
+
 .page-heading {
   padding: 1% 0 10% 0; }
 
