@@ -306,6 +306,9 @@ footer {
 .bg-new {
   background: #0a9a5d; }
 
+.custom-control {
+  font-size: 12px; }
+
 .page-heading {
   padding: 1% 0 10% 0; }
 
@@ -969,7 +972,10 @@ header.masthead .page-heading {
   .sign-header {
     padding: 20px 0;
     margin: 35px 10px;
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .form-check {
+    display: inline-flex; } }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .row.footer-bg-svg {
     margin-top: -45px; }

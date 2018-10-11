@@ -27,6 +27,9 @@
     background: rgb(10, 154, 93);
 }
 
+.custom-control{
+  font-size:12px;
+}
 
 
 .page-heading {
@@ -923,8 +926,13 @@ form {
     padding: 20px 0;
     margin: 35px 10px;
     font-size: 16px;
-}  
+}
 
+
+.form-check{
+  
+  display:inline-flex;
+}
 
 }
 
