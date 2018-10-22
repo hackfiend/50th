@@ -991,3 +991,6 @@ header.masthead .page-heading {
 
   #kudos_submit input[type='submit'] {
     color: #4a4a4a; } }
+@media (max-width: 369px) {
+  .btn-lg {
+    font-size: 15px; } }
