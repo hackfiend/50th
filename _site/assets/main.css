@@ -306,6 +306,10 @@ footer {
 .bg-new {
   background: #0a9a5d; }
 
+.wishes-container {
+  height: 900px;
+  overflow-y: scroll; }
+
 .custom-control {
   font-size: 12px; }
 
